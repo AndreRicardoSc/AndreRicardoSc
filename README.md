@@ -17,5 +17,5 @@
 
 ##
 
-![snake gif](https://github.com/AndreRicardoSc/ldmfabio/blob/output/github-contribution-grid-snake-dark.svg)
+![snake gif](https://github.com/AndreRicardoSc/AndreRicardoSc/blob/output/github-contribution-grid-snake-dark.svg)
 
