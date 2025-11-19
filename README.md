@@ -15,7 +15,4 @@
 ##
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AndreRicardoSc&bg_color=000&color=fff&line=808080&point=800080&area=true)](https://github.com/AndreRicardoSc/AndreRicardoSc)
 
-##
-
-![snake gif](https://github.com/AndreRicardoSc/AndreRicardoSc/blob/output/github-contribution-grid-snake-dark.svg)
 
