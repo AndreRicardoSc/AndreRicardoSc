@@ -1,8 +1,3 @@
-<div>
-  <a href="https://github.com/AndreRicardoSc">
-  <img height="300em" src="https://github-readme-stats.vercel.app/api?username=AndreRicardoSc&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreRicardoSc&layout=compact&langs_count=16&theme=midnight-purple"/>
-</div>
 <div style="display: inline_block"><br>
   <img align="center" alt="Andre-JS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Andre-VUEjs" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg">
