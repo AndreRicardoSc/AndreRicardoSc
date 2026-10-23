@@ -1,0 +1,53 @@
+name: Validate README
+
+# Gatilhos:
+#   - pull_request     : valida o README antes de entrar na branch principal
+#   - push (main)      : valida o README publicado
+#   - workflow_dispatch: execução manual pela aba Actions
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/workflows/validate-readme.yml"
+      - "scripts/validate_readme.py"
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/workflows/validate-readme.yml"
+      - "scripts/validate_readme.py"
+  workflow_dispatch:
+
+# Permissão mínima: apenas leitura do repositório.
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-readme-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Checar estrutura, links e imagens do README
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # 1) Estrutura: seções obrigatórias e arquivos referenciados.
+      #    Determinístico e sem rede — sempre roda e pode reprovar o job.
+      - name: Validar estrutura e arquivos locais
+        run: python scripts/validate_readme.py --structure
+
+      # 2) Links externos: apenas informativo.
+      #    Falhas aqui NÃO reprovam o job, para evitar quebra por indisponibilidade
+      #    temporária de serviços de terceiros (badges, cards, etc.).
+      - name: Verificar links e imagens externos (informativo)
+        continue-on-error: true
+        run: python scripts/validate_readme.py --links
