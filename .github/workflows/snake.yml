@@ -1,0 +1,44 @@
+name: Update Snake Animation
+
+# Gatilhos:
+#   - schedule         : toda segunda-feira às 06:30 UTC (03:30 em Santa Catarina)
+#   - workflow_dispatch: execução manual pela aba Actions
+#   - push             : roda quando este workflow muda, para validar a alteração
+on:
+  schedule:
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+# Permissão mínima: escrever apenas a branch output com o SVG gerado.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Gerar animação do snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Gerar SVG do snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%233FB950&color_dots=%23161B22,%230E4429,%23006D32,%2326A641,%2339D353
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
