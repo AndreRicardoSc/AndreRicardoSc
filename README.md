@@ -186,41 +186,48 @@ Aplicação de **planejamento e controle financeiro pessoal** (SaaS), construíd
 > Status: backend funcional e em desenvolvimento ativo. O frontend web ainda não foi publicado em repositório público.
 
 
+
 ## Estatísticas do GitHub
 
-<ul style="
-  list-style: none; 
-  margin: 0; 
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px
-">
-  <li>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AndreRicardoSc&theme=github_dark" alt="Estatísticas de André Ricardo Schultz" width="100%"/>
-  </li>
-  <li>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AndreRicardoSc&theme=github_dark" alt="Linguagens por repositório de André Ricardo Schultz" width="100%"/>
-  </li>
-  <li>
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AndreRicardoSc&theme=github_dark" alt="Horários produtivos de André Ricardo Schultz" width="100%"/>
-  </li>
-  <li style="
-    grid-column: span 3 / span 3;
-  ">
-    <img src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Sequência de contribuições de André Ricardo Schultz" width="100%"/>
-  </li>
-</ul>
+<table>
+  <tr>
+    <td width="33%">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AndreRicardoSc&theme=github_dark"
+        alt="Estatísticas do GitHub"
+      />
+    </td>
+    <td width="33%">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AndreRicardoSc&theme=github_dark"
+        alt="Linguagens por repositório"
+      />
+    </td>
+    <td width="33%">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AndreRicardoSc&theme=github_dark"
+        alt="Horários produtivos"
+      />
+    </td>
+  </tr>
+</table>
 
-<div style="
-  margin-top: 20px;
-  border-radius: 10px;
-  border: solid 1px;
-  background: black;
-  padding-bottom: 20px;
-">
-  <img src="https://raw.githubusercontent.com/AndreRicardoSc/AndreRicardoSc/output/github-contribution-grid-snake-dark.svg" alt="Animação da cobra percorrendo as contribuições" width="100%" />
-</div>
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9"
+    alt="Sequência de contribuições"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/AndreRicardoSc/AndreRicardoSc/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
+</p>
+
 
 <p align="center">
   <sub>
