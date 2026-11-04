@@ -36,6 +36,60 @@ Entre os projetos em equipe que já construí estão uma plataforma de gestão d
 
 ---
 
+## Tecnologias e ferramentas
+
+### Usadas em projetos
+
+**Linguagens**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,js,html,css" alt="Python, JavaScript, HTML e CSS" />
+</p>
+
+**Frontend**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vue,vite,pinia,tailwind" alt="Vue.js, Vite, Pinia e Tailwind CSS" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP" />
+  <img src="https://img.shields.io/badge/Vue_Router-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue Router" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios" />
+</p>
+
+**Backend e banco de dados**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=django,postgres,sqlite,redis" alt="Django, PostgreSQL, SQLite e Redis" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Django_REST_Framework-A30000?style=flat-square&logo=django&logoColor=white" alt="Django REST Framework" />
+  <img src="https://img.shields.io/badge/Django_Channels-092E20?style=flat-square&logo=django&logoColor=white" alt="Django Channels" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="SimpleJWT" />
+  <img src="https://img.shields.io/badge/OpenAPI_3-6BA539?style=flat-square&logo=swagger&logoColor=white" alt="drf-spectacular e OpenAPI 3" />
+  <img src="https://img.shields.io/badge/MapLibre_GL-295DAA?style=flat-square&logo=maplibre&logoColor=white" alt="MapLibre GL JS" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
+**Ferramentas**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,vercel" alt="Git, GitHub, GitHub Actions, VS Code e Vercel" />
+</p>
+
+PDM · Ruff · ESLint · Prettier · Oxlint · Figma
+
+### Estudando e explorando
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,typescript,linux" alt="Docker, TypeScript e Linux" />
+</p>
+
+> Os ícones representam tecnologias presentes nos meus repositórios. As ferramentas listadas em "estudando e explorando" ainda não aparecem em projetos concluídos.
+
 ## Projetos em destaque
 
 > ✅ As demos abaixo estavam **no ar** na verificação de 04/11/2026.
@@ -128,6 +182,12 @@ Aplicação de **planejamento e controle financeiro pessoal** (SaaS), construíd
 - API documentada com OpenAPI 3 (Swagger/Redoc) via drf-spectacular
 
 > Status: backend funcional e em desenvolvimento ativo. O frontend web ainda não foi publicado em repositório público.
+
+## Contribuições
+
+<p align="center">
+  <img src="assets/contributions.svg" alt="Gráfico de contribuições nos últimos 12 meses" />
+</p>
 
 ---
 
