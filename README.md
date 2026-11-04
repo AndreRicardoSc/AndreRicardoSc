@@ -194,32 +194,32 @@ Aplicação de **planejamento e controle financeiro pessoal** (SaaS), construíd
 ## Estatísticas do GitHub
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=AndreRicardoSc&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&locale=pt-br&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=C9D1D9&border_color=30363D"
-    alt="Estatísticas do GitHub de André Ricardo Schultz"
-    height="165"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndreRicardoSc&layout=compact&hide_border=true&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=3FB950&text_color=C9D1D9&border_color=30363D"
-    alt="Linguagens mais utilizadas nos repositórios de André Ricardo Schultz"
-    height="165"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AndreRicardoSc&theme=github_dark" alt="Perfil consolidado de André Ricardo Schultz" width="70%" />
 </p>
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&stroke=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9"
-    alt="Sequência de contribuições de André Ricardo Schultz"
-  />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AndreRicardoSc&theme=github_dark" alt="Estatísticas de André Ricardo Schultz" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AndreRicardoSc&theme=github_dark" alt="Linguagens por repositório de André Ricardo Schultz" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AndreRicardoSc&theme=github_dark" alt="Horários produtivos de André Ricardo Schultz" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Sequência de contribuições de André Ricardo Schultz" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AndreRicardoSc/AndreRicardoSc/output/github-contribution-grid-snake-dark.svg" alt="Animação da cobra percorrendo as contribuições" width="100%" />
 </p>
 
 <p align="center">
   <sub>
-    Cards gerados dinamicamente por
-    <a href="https://github.com/anuraghazra/github-readme-stats">GitHub Readme Stats</a> e
-    <a href="https://github.com/DenverCoder1/github-readme-streak-stats">GitHub Streak Stats</a>.
-    Se algum serviço estiver fora do ar, os dados continuam disponíveis diretamente no
-    <a href="https://github.com/AndreRicardoSc">meu perfil do GitHub</a>.
+    Cards gerados por
+    <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">GitHub Profile Summary Cards</a>,
+    <a href="https://github.com/DenverCoder1/github-readme-streak-stats">GitHub Streak Stats</a> e
+    <a href="https://github.com/Platane/snk">GitHub Snake</a>.
   </sub>
 </p>
 
