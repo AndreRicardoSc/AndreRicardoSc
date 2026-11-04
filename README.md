@@ -26,13 +26,15 @@
 
 ## Sobre mim
 
-Sou estudante do **terceiro ano do ensino médio integrado ao curso técnico em Informática para a Internet**, no **IFC — Campus Araquari** (Santa Catarina, Brasil).
-
 Trabalho principalmente no desenvolvimento de aplicações **full stack**: defino as regras de negócio, modelo os dados, construo a **API REST** no backend e desenvolvo a interface no frontend, cuidando também de autenticação, integração e experiência de uso. Meu foco atual está em **Python/Django com Django REST Framework** no servidor e **Vue.js 3 com Vite e Pinia** no cliente.
 
 Entre os projetos em equipe que já construí estão uma plataforma de gestão de projetos (**Fluxo**, hackathon), um marketplace de serviços para cães (**Doggo**) e um recurso educacional de Pensamento Computacional (**Mosaico**).
 
 **Interesses:** desenvolvimento web, APIs REST, arquitetura de software, bancos de dados, automação, interfaces modernas, acessibilidade e experiência do usuário.
+
+### Formação
+- **Último ano** do Técnico em Informática para Internet - IFC - Campus Araquari
+- **Prestando vestibular para** Bacharelado em Sistema de Informação (BSI) - IFC - Campus Araquari
 
 ---
 
@@ -183,36 +185,42 @@ Aplicação de **planejamento e controle financeiro pessoal** (SaaS), construíd
 
 > Status: backend funcional e em desenvolvimento ativo. O frontend web ainda não foi publicado em repositório público.
 
-## Contribuições
-
-<p align="center">
-  <img src="assets/contributions.svg" alt="Gráfico de contribuições nos últimos 12 meses" />
-</p>
-
----
 
 ## Estatísticas do GitHub
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AndreRicardoSc&theme=github_dark" alt="Perfil consolidado de André Ricardo Schultz" width="70%" />
-</p>
+<ul style="
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px
+">
+  <li>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AndreRicardoSc&theme=github_dark" alt="Estatísticas de André Ricardo Schultz" width="100%"/>
+  </li>
+  <li>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AndreRicardoSc&theme=github_dark" alt="Linguagens por repositório de André Ricardo Schultz" width="100%"/>
+  </li>
+  <li>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AndreRicardoSc&theme=github_dark" alt="Horários produtivos de André Ricardo Schultz" width="100%"/>
+  </li>
+  <li style="
+    grid-column: span 3 / span 3;
+  ">
+    <img src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Sequência de contribuições de André Ricardo Schultz" width="100%"/>
+  </li>
+</ul>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AndreRicardoSc&theme=github_dark" alt="Estatísticas de André Ricardo Schultz" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AndreRicardoSc&theme=github_dark" alt="Linguagens por repositório de André Ricardo Schultz" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AndreRicardoSc&theme=github_dark" alt="Horários produtivos de André Ricardo Schultz" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=AndreRicardoSc&locale=pt_BR&hide_border=true&background=0D1117&border=30363D&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="Sequência de contribuições de André Ricardo Schultz" />
-</p>
-
-<p align="center">
+<div style="
+  margin-top: 20px;
+  border-radius: 10px;
+  border: solid 1px;
+  background: black;
+  padding-bottom: 20px;
+">
   <img src="https://raw.githubusercontent.com/AndreRicardoSc/AndreRicardoSc/output/github-contribution-grid-snake-dark.svg" alt="Animação da cobra percorrendo as contribuições" width="100%" />
-</p>
+</div>
 
 <p align="center">
   <sub>
